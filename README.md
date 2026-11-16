@@ -3,6 +3,14 @@
 Repositório dedicado à documentação, código e evidências do **Projeto Patrulha**, desenvolvido para a oficina de Programação e Robótica LEGO MINDSTORMS EV3 (STEAM). O objetivo principal foi projetar e programar um robô autônomo capaz de realizar um percurso utilizando o seguimento de linha, identificar obstáculos no trajeto, realizar a manobra de desvio e retornar automaticamente para a pista.
 
 ---
+## 🎥 Demonstração
+
+Veja o robô seguindo a linha, detectando obstáculos
+e realizando a manobra de desvio.
+
+[![Robô Patrulha](./assets/robo.jpeg)](./assets/execucao.mp4)
+
+[▶️ Assistir ao vídeo completo](./assets/execucao.mp4)
 
 ## 🤝 Trabalho em equipe
 
