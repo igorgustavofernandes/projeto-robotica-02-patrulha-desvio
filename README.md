@@ -4,6 +4,10 @@ Repositório dedicado à documentação, código e evidências do **Projeto Patr
 
 ---
 
+## 🤝 Trabalho em equipe
+
+Projeto acadêmico desenvolvido em grupo. A documentação apresenta a solução construída coletivamente, os componentes utilizados e os resultados dos testes; não se trata de um projeto individual.
+
 ## 👥 Equipe (Legião do Mal)
 * Julia
 * Igor Gustavo
