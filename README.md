@@ -1,10 +1,10 @@
-#  Projeto II — Robô Patrulha com Desvio de Obstáculos | Patrol Robot with Obstacle Avoidance
+# Projeto II — Robô Patrulha com Desvio de Obstáculos | Patrol Robot with Obstacle Avoidance
 
 Projeto acadêmico desenvolvido para a oficina de **Programação e Robótica LEGO MINDSTORMS EV3 (STEAM)**. O objetivo foi projetar e programar um robô autônomo capaz de seguir uma linha, identificar obstáculos, realizar manobras de desvio e retornar à pista.
 
 An academic project developed for the **LEGO MINDSTORMS EV3 Programming and Robotics Workshop (STEAM)**. The goal was to design and program an autonomous robot capable of following a line, detecting obstacles, avoiding them, and returning to the track.
 
-##  Demonstração | Demo
+## Demonstração | Demo
 
 Clique na imagem para assistir à execução do robô.
 
@@ -12,9 +12,9 @@ Click the image to watch the robot in action.
 
 [![Robô Patrulha](./assets/robo.jpeg)](./assets/execucao.mp4)
 
-[▶️ Assistir ao vídeo completo | Watch the full video](./assets/execucao.mp4)
+[ Assistir ao vídeo completo | Watch the full video](./assets/execucao.mp4)
 
-##  Trabalho em Equipe | Teamwork
+## Trabalho em Equipe | Teamwork
 
 Projeto acadêmico desenvolvido em grupo. Esta documentação apresenta a solução construída coletivamente, os componentes utilizados e os resultados dos testes; não se trata de um projeto individual.
 
@@ -32,31 +32,31 @@ An academic team project. This documentation presents the solution developed col
 
 **Data de conclusão | Completion date:** 18/09/2026
 
-##  Desafio e Critérios de Sucesso | Challenge and Success Criteria
+## Desafio e Critérios de Sucesso | Challenge and Success Criteria
 
 O robô deveria cumprir o seguinte ciclo de funcionamento de forma autônoma:
 
 The robot was expected to complete the following operating cycle autonomously:
 
 1. Seguir a linha preta utilizando o sensor de cor.
-   Follow the black line using the color sensor.
+ Follow the black line using the color sensor.
 2. Detectar um obstáculo no percurso utilizando o sensor ultrassônico.
-   Detect an obstacle on the track using the ultrasonic sensor.
+ Detect an obstacle on the track using the ultrasonic sensor.
 3. Parar e desviar do objeto por meio de manobras controladas pelas rotações dos motores.
-   Stop and avoid the object through maneuvers controlled by motor rotations.
+ Stop and avoid the object through maneuvers controlled by motor rotations.
 4. Reconectar à linha preta e retomar o percurso.
-   Reconnect with the black line and resume the route.
+ Reconnect with the black line and resume the route.
 
-##  Hardware e Componentes | Hardware and Components
+## Hardware e Componentes | Hardware and Components
 
 - **Bloco programável | Programmable brick:** LEGO MINDSTORMS EV3.
 - **Atuadores | Actuators:** dois motores EV3 nas portas B e C para tração e direção diferencial.
 - **Sensores | Sensors:**
-  - **Sensor ultrassônico | Ultrasonic sensor:** detecção de obstáculos à distância.
-  - **Sensor de cor | Color sensor:** leitura da intensidade da luz refletida para rastrear a linha preta.
+ - **Sensor ultrassônico | Ultrasonic sensor:** detecção de obstáculos à distância.
+ - **Sensor de cor | Color sensor:** leitura da intensidade da luz refletida para rastrear a linha preta.
 - **Estrutura | Structure:** peças e chassis LEGO Technic, incluindo vigas, eixos, conectores e rodas de borracha.
 
-##  Lógica de Funcionamento e Programação | Operating Logic and Programming
+## Lógica de Funcionamento e Programação | Operating Logic and Programming
 
 O programa foi estruturado em um ambiente de blocos visuais, utilizando uma lógica de execução contínua (`repete para sempre`) combinada com condicionais (`se / então`).
 
@@ -86,7 +86,7 @@ Após a manobra, o sensor de cor procura novamente a linha preta por meio do lim
 
 After the maneuver, the color sensor searches for the black line again using the reflected-light threshold described in the program (`<= 15%`), allowing the patrol cycle to resume.
 
-##  Abordagem STEAM Integrada | STEAM Approach
+## Abordagem STEAM Integrada | STEAM Approach
 
 - **S — Ciências | Science:** aplicação de conceitos de reflexão da luz e propagação de ondas ultrassônicas.
 - **T — Tecnologia | Technology:** programação baseada em blocos no ecossistema EV3, com controle de motores e leitura de sensores.
@@ -94,7 +94,7 @@ After the maneuver, the color sensor searches for the black line again using the
 - **A — Artes | Arts:** criatividade no design da montagem e implementação de feedback sonoro.
 - **M — Matemática | Mathematics:** aplicação de porcentagens de intensidade luminosa, limiares de distância, controle de velocidade e contagem de rotações dos eixos.
 
-##  Registros do Projeto | Project Gallery
+## Registros do Projeto | Project Gallery
 
 ### Robô | Robot
 
@@ -104,7 +104,7 @@ After the maneuver, the color sensor searches for the black line again using the
 
 ![Programa desenvolvido no EV3](./assets/programa_ev3.jpeg)
 
-##  Evidências e Resultados | Evidence and Results
+## Evidências e Resultados | Evidence and Results
 
 **Status da missão | Mission status:** Cumprida com sucesso | Successfully completed.
 
@@ -112,7 +112,7 @@ O projeto demonstrou a integração entre sensores, motores e lógica de program
 
 The project demonstrated the integration of sensors, motors, and programming logic to follow a line and autonomously avoid obstacles.
 
-##  Aprendizados e Próximos Passos | Lessons Learned and Next Steps
+## Aprendizados e Próximos Passos | Lessons Learned and Next Steps
 
 **Principal aprendizado | Main lesson learned**
 
